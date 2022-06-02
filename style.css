@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.centered-main-page-element {
+.todo-app-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
