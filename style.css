@@ -120,7 +120,7 @@ input#new-task {
   vertical-align: middle;
 }
 
-.no-edit-mode > input[type="checkbox"] {
+.no-edit-mode > input.switch {
   margin: 0 10px;
 }
 
@@ -131,7 +131,7 @@ input#new-task {
   width: 226px;
 }
 
-.no-edit-mode > input[type="text"] {
+.no-edit-mode > input.task {
   width: 226px;
 }
 
@@ -152,11 +152,11 @@ input#new-task {
 }
 
 /* Edit Task */
-.no-edit-mode input[type=text] {
+.no-edit-mode input.task {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode input.task {
   display: inline-block;
   width: 224px;
 }
